@@ -58,6 +58,9 @@ jobs:
       #             --filter=.github/dita-ot/audience-expert.ditaval \
       #             --filter=.github/dita-ot/platform-linux.ditaval
       #
+      - name: Show files
+        run: find . -maxdepth 3 -type f | sort
+        
       - name: Build Markdown
         uses: dita-ot/dita-ot-action@4.4
         with:
