@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-7482" xml:lang="en-us" class="- topic/topic concept/concept ">
+  <title class="- topic/title ">What Causes Clogs in Sinks</title>
+  <shortdesc class="- topic/shortdesc ">Informative content on the causes of clogs will be provided. This let users understand what may be creating their clogging issues in their household.</shortdesc>
+  <prolog class="- topic/prolog ">
+    <author translate="no" type="creator" class="- topic/author ">Mckenzie Moua &lt;mnmoua@ucdavis.edu&gt;</author>
+    <metadata class="- topic/metadata ">
+      <keywords class="- topic/keywords "/>
+    </metadata>
+  </prolog>
+  <conbody class="- topic/body  concept/conbody ">
+    <p class="- topic/p ">
+      <b class="+ topic/ph hi-d/b ">
+        <u class="+ topic/ph hi-d/u ">MOST COMMON CAUSES OF SINK CLOGS</u>
+      </b>
+    </p>
+    <p class="- topic/p ">
+      <table colsep="1" frame="sides" rowsep="1" class="- topic/table ">
+        <tgroup align="char" cols="2" class="- topic/tgroup ">
+          <colspec align="left" colname="c1" colnum="1" colsep="1" colwidth="1*" rowsep="1" class="- topic/colspec "/>
+          <colspec align="left" colname="c2" colnum="2" colsep="1" rowsep="1" class="- topic/colspec "/>
+          <thead class="- topic/thead ">
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">Kitchen Sinks</entry>
+              <entry class="- topic/entry ">Bathroom Sinks</entry>
+            </row>
+          </thead>
+          <tbody class="- topic/tbody ">
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">
+                <ul class="- topic/ul ">
+                  <li class="- topic/li ">Slow drainage and clogged sinks can slowly build up caused by fat, oils, and grease. It sticks to the pipes and catches other debris.</li>
+                </ul>
+              </entry>
+              <entry class="- topic/entry ">
+                <ul class="- topic/ul ">
+                  <li class="- topic/li ">Hair clumps tends to get tangled and trapped in the drain which is a common issue of bathroom sink clogs. As a result, it can act as a net to catch other debris.</li>
+                </ul>
+              </entry>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">
+                <ul class="- topic/ul ">
+                  <li class="- topic/li "> Certain food, scraps such as rice, coffee grounds, and celery, when washed down the drain can stick to the pipes, expand to block the drainage, and wrap other debris.</li>
+                </ul>
+              </entry>
+              <entry class="- topic/entry ">
+                <ul class="- topic/ul ">
+                  <li class="- topic/li "> Soap can contribute to build-up in the pipes by combining with already present debris to create a mixture that results in a  full-on blockage.</li>
+                </ul>
+              </entry>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">
+                <ul class="- topic/ul ">
+                  <li class="- topic/li ">Foreign objects such as utensils, bottle caps, and other items that can be swept into the drain, resulting in a blocked pipe.</li>
+                </ul>
+              </entry>
+              <entry class="- topic/entry ">
+                <ul class="- topic/ul ">
+                  <li class="- topic/li ">Residues from toothpaste and other personal care products can accumulate on the walls of the pipes, slowly creating a narrow path. This can result in slow drainage or a complete blocked pipe.</li>
+                </ul>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+  </conbody>
+</concept>
