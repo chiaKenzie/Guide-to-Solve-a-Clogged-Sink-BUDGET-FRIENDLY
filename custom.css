@@ -37,13 +37,6 @@ body {
     background: white;
 }
 
-
-.site-logo {
-    width: 80px;
-    height: 80px;
-    object-fit: contain;
-}
-
 .site-title {
     font-size: 1.75rem;
     font-weight: bold;
@@ -82,7 +75,9 @@ body {
 table {
     display: table !important;
     width: 100%;
+    margin: 2rem auto;
     border-collapse: collapse;
+    table-layout: fixed;
 }
 
 thead {
@@ -100,8 +95,11 @@ tr {
 th,
 td {
     display: table-cell !important;
-    padding: 0.75rem;
+    width: 50%;
+    padding: 1rem;
     border: 1px solid #ccc;
+    vertical-align: top;
+    word-wrap: break-word;
 }
 
 img {
