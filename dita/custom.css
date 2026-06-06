@@ -12,8 +12,7 @@ body {
 
 .site-header {
     display: flex;
-    align-items: center;
-    gap: 1.5rem;
+    justify-content: flex-end;
 
     width: 100%;
     padding: 1.5rem 2rem;
@@ -25,8 +24,9 @@ body {
         #7BAF98 45%,
         #5C8778 100%
     );
+}
 
-  .site-logo {
+.site-logo {
     width: 100px;
     height: auto;
     object-fit: contain;
