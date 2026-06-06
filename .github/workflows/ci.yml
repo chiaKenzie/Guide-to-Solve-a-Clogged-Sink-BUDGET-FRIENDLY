@@ -67,6 +67,16 @@ jobs:
           ls -la
           ls -la dita || true
           find . -name "*.ditamap"
+
+      - name: Debug repository files
+        run: |
+          pwd
+          echo "Current branch:"
+          git branch --show-current
+          echo "All files:"
+          find . -maxdepth 4 -type f | sort
+          echo "DITA maps:"
+          find . -name "*.ditamap" -print
         
       - name: Build HTML
         run: |
