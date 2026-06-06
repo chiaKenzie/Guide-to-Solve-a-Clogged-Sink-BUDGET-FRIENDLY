@@ -85,7 +85,11 @@ jobs:
             -w /github/workspace \
             ghcr.io/dita-ot/dita-ot:4.4 \
             dita -i /github/workspace/dita/document.ditamap -o /github/workspace/out/html -f html5
-              
+
+      - name: Add Bootswatch theme
+        run: |
+           find out/html -name "*.html" -exec sed -i '/<\/head>/i \    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/minty/bootstrap.min.css">' {} \;
+                    
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
