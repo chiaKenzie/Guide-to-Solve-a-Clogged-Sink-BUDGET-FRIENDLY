@@ -75,6 +75,7 @@ jobs:
       # After the workflow runs, open the Actions tab, select the run, and
       # download the "dita-markdown" artifact from the Artifacts section.
       #
+      steps:
       - name: Upload Markdown artifact
         uses: actions/upload-artifact@v4
         with:
