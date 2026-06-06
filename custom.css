@@ -13,22 +13,24 @@ body {
 .site-header {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
 
     width: 100%;
-    margin: 0 0 2rem 0;
     padding: 1.5rem 2rem;
+    margin: 0 0 2rem 0;
 
     background: linear-gradient(
         135deg,
         #A8E6D0 0%,
-        #5C8778 65%,
-        #3F5D53 100%
+        #7BAF98 45%,
+        #5C8778 100%
+    );
 
+    color: white;
     box-sizing: border-box;
 }
 
-..topic {
+.topic {
     max-width: 1100px;
     margin: 0 auto;
     padding: 2rem;
@@ -61,18 +63,20 @@ body {
 }
 
 .nav-list a {
-  display: block;
-  padding: 1rem 1.25rem;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  text-decoration: none;
-  font-weight: 600;
-  background: #f8f9fa;
+    display: block;
+    padding: 1rem 1.25rem;
+    border: 1px solid #d7e3dd;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    background: #ffffff;
+    transition: all 0.2s ease;
 }
 
 .nav-list a:hover {
-  background: #e9ecef;
-  transform: translateY(-2px);
+    background: #f3faf7;
+    border-color: #7BAF98;
+    transform: translateY(-2px);
 }
 
 table {
