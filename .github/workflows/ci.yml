@@ -62,7 +62,11 @@ jobs:
       #             --filter=.github/dita-ot/platform-linux.ditaval
       #
       - name: Show files
-        run: find . -maxdepth 3 -type f | sort
+        run: |
+          pwd
+          ls -la
+          ls -la dita || true
+          find . -name "*.ditamap"
         
       - name: Build HTML
         run: |
