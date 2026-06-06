@@ -26,8 +26,10 @@ body {
         #5C8778 100%
     );
 
-    color: white;
-    box-sizing: border-box;
+  .site-logo {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
 }
 
 .topic {
@@ -35,12 +37,6 @@ body {
     margin: 0 auto;
     padding: 2rem;
     background: white;
-}
-
-.site-title {
-    font-size: 1.75rem;
-    font-weight: bold;
-    line-height: 1.2;
 }
 
 .nav-list {
