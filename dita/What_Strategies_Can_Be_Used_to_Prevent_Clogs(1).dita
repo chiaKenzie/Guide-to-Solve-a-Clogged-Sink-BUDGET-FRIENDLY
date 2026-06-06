@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-4" xml:lang="en-us" class="- topic/topic concept/concept ">
+  <title class="- topic/title ">What Strategies Can Be Used to Prevent Clogs?</title>
+  <shortdesc class="- topic/shortdesc ">To prevent the likely chance of a clogged sink, suggested methods are provided.</shortdesc>
+  <prolog class="- topic/prolog ">
+    <author translate="no" type="creator" class="- topic/author ">Mckenzie Moua &lt;mnmoua@ucdavis.edu&gt;</author>
+    <metadata class="- topic/metadata ">
+      <keywords class="- topic/keywords "/>
+    </metadata>
+  </prolog>
+  <conbody class="- topic/body  concept/conbody ">
+    <p class="- topic/p ">
+      <b class="+ topic/ph hi-d/b ">
+        <u class="+ topic/ph hi-d/u ">HOW TO AVOID CLOGS</u>
+      </b>
+    </p>
+    <p class="- topic/p ">
+      <table colsep="1" frame="sides" rowsep="1" class="- topic/table ">
+        <tgroup align="left" cols="1" class="- topic/tgroup ">
+          <colspec align="left" colname="c1" colnum="1" colsep="1" colwidth="1*" rowsep="1" class="- topic/colspec "/>
+          <thead class="- topic/thead ">
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">Strategies</entry>
+            </row>
+          </thead>
+          <tbody class="- topic/tbody ">
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">Install drain strainers in kitchen and bathroom sinks to catch any food scraps and hair clumps to reduce debris that can enter the drain.</entry>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">Avoid pouring anything that contains oil or grease down the drain. This can help prevent residues that will stick to the pipes.</entry>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">Flush your drains regularly, about once a week, to wash any collecting debris in the pipes. This can also help in dissolving any grease or soap residues.</entry>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">If using a garbage disposal, make sure to run the faucet as food scraps are being processed. This will help in flushing down the scraps. </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+  </conbody>
+</concept>
