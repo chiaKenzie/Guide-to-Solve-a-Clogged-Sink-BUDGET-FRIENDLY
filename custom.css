@@ -35,15 +35,8 @@ body {
     object-fit: contain;
 }
 
-.topic {
+.nav-list {
     max-width: 1100px;
-    margin: 0 auto;
-    padding: 2rem;
-    background: white;
-}
-
-nav-list {
-    max-width: 700px; /* adjust as needed */
     margin: 2rem auto;
     padding: 0;
     list-style: none;
@@ -70,6 +63,13 @@ nav-list {
     background: #f3faf7;
     border-color: #7BAF98;
     transform: translateY(-2px);
+}
+
+.topic {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: white;
 }
 
 table {
