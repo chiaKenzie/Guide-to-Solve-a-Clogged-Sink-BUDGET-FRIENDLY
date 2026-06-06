@@ -1,3 +1,25 @@
+.site-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    background: #0d6efd;
+    color: white;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+}
+
+.site-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.site-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
 body {
     max-width: 1100px;
     margin: 0 auto;
