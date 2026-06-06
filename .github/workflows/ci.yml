@@ -84,9 +84,11 @@ jobs:
             -v "$PWD":/github/workspace \
             -w /github/workspace \
             ghcr.io/dita-ot/dita-ot:4.4 \
-            dita -i /github/workspace/dita/document.ditamap -o /github/workspace/out/html -f html5
-            --args.css=/github/workspace/dita/custom.css \
-           --args.copycss=yes
+            dita -i /github/workspace/dita/document.ditamap \
+                 -o /github/workspace/out/html \
+                 -f html5 \
+                 --args.css=/github/workspace/dita/custom.css \
+                 --args.copycss=yes
 
       - name: Add Bootswatch theme
         run: |
