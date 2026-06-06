@@ -70,13 +70,13 @@ jobs:
             -v "$PWD":/github/workspace \
             -w /github/workspace \
             ghcr.io/dita-ot/dita-ot:4.4 \
-            dita -i dita/document.ditamap -o out/html -f html5
+            dita -i /github/workspace/dita/document.ditamap -o /github/workspace/out/html -f html5
               
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out/markdown
+          publish_dir: ./out/html
           
       # ── 3. Upload the Markdown files as a downloadable workflow artifact ───
       #
