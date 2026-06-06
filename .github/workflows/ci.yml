@@ -68,7 +68,12 @@ jobs:
               -w /github/workspace \
               ghcr.io/dita-ot/dita-ot:4.4 \
               dita -i dita/document.ditamap -o out/markdown -f markdown
-      
+              
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out/markdown
       # ── 3. Upload the Markdown files as a downloadable workflow artifact ───
       #
       # After the workflow runs, open the Actions tab, select the run, and
