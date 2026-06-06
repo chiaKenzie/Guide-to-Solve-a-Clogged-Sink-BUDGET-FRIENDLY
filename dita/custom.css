@@ -38,3 +38,10 @@ body {
   background: #e9ecef;
   transform: translateY(-2px);
 }
+
+img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+    height: auto;
+}
