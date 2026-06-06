@@ -90,6 +90,14 @@ jobs:
                  --args.css=/github/workspace/dita/custom.css \
                  --args.copycss=yes
 
+      - name: Add site header
+        run: |
+          find out/html -name "*.html" -exec sed -i '/<body[^>]*>/a\
+          <div class="site-header">\
+          <img src="images/logo/logo.png" class="site-logo" alt="Logo">\
+          <div class="site-title">College Budget-Friendly Guide to Unclogging a Sink</div>\
+          </div>' {} \;
+
       - name: Add Bootswatch theme
         run: |
            find out/html -name "*.html" -exec sed -i '/<\/head>/i \    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/minty/bootstrap.min.css">' {} \;
