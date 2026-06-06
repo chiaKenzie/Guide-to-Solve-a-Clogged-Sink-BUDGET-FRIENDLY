@@ -18,8 +18,8 @@ jobs:
 
     steps:
       # ── 1. Check out the repository ────────────────────────────────────────
-      - name: Git checkout
-        uses: actions/checkout@v4
+      #- name: Git checkout
+      # uses: actions/checkout@v4
 
       # ── 2. Build Markdown output ───────────────────────────────────────────
       #
