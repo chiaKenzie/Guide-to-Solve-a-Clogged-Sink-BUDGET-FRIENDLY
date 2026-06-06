@@ -90,6 +90,16 @@ jobs:
                  --args.css=/github/workspace/dita/custom.css \
                  --args.copycss=yes
 
+      - name: Build PDF
+        run: |
+          docker run --rm \
+            -v "$PWD":/github/workspace \
+            -w /github/workspace \
+            ghcr.io/dita-ot/dita-ot:4.4 \
+            dita -i /github/workspace/dita/document.ditamap \
+                 -o /github/workspace/out/pdf \
+                 -f pdf
+
       - name: Copy logo
         run: |
           mkdir -p out/html/images/logo
@@ -124,3 +134,9 @@ jobs:
         with:
           name: dita-html
           path: out/html
+
+      - name: Upload PDF Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: clogged-sink-guide-pdf
+          path: out/pdf
