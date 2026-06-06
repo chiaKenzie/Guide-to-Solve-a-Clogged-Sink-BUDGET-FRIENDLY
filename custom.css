@@ -1,17 +1,18 @@
 .site-header {
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
-    background: linear-gradient(135deg, #A8E6D0, #7ED7B8);
-    padding: 1.5rem 0;
-}
-
-.site-header-inner {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 2rem;
     display: flex;
     align-items: center;
     gap: 1rem;
+
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+
+    background: #A8E6D0;
+    color: white;
+    margin-bottom: 2rem;
 }
 
 .site-logo {
@@ -36,7 +37,6 @@ body {
 .topic {
     background: white;
     padding: 2rem;
-    border-radius: 12px;
 }
 
 .nav-list {
