@@ -90,6 +90,11 @@ jobs:
                  --args.css=/github/workspace/dita/custom.css \
                  --args.copycss=yes
 
+      - name: Copy logo
+        run: |
+          mkdir -p out/html/images/logo
+          cp dita/images/logo/logo.png out/html/images/logo/
+
       - name: Add site header
         run: |
           find out/html -name "*.html" -exec sed -i '/<body[^>]*>/a\
