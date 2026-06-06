@@ -7,7 +7,7 @@
     <context class="- topic/section task/context ">This is a method that uses the household item, plunger, to create pressure and suction in the drain pipe to help loosen any debris stuck inside. Follow the guide to learn how to use this method. <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Materials Needed:</b></p><sl class="- topic/sl "><sli class="- topic/sli ">Plunger</sli><sli class="- topic/sli ">Pot / Kettle of Hot Water</sli></sl></context>
     <steps class="- topic/ol task/steps ">
       <step class="- topic/li task/step ">
-        <cmd class="- topic/ph task/cmd ">After following the guide on how to unplug the drain stopper, the first step you will have to do is to screw the pivot rod back into the drain pipe. Make sure that everything is tight. <image align="center" width="500" href="images/Method_2/P1012730.png" class="- topic/image "/></cmd>
+        <cmd class="- topic/ph task/cmd ">After following the guide on how to unplug the drain stopper, the first step you will have to do is to screw the pivot rod back into the drain pipe. Make sure that everything is tight. <br> <image align="center" width="500" href="images/Method_2/P1012730.png" class="- topic/image "/></cmd>
       </step>
       <step class="- topic/li task/step ">
         <cmd class="- topic/ph task/cmd ">Turn on the faucet and check back down at the pipes to see if there are any leaks. If there are any, tighten the nut to prevent water spilling out.</cmd>
