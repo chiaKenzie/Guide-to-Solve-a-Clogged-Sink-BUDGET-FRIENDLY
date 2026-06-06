@@ -71,8 +71,8 @@ jobs:
       - name: Debug repository files
         run: |
           pwd
-          echo "Current branch:"
-          git branch --show-current
+          echo "Top-level files:"
+          ls -la
           echo "All files:"
           find . -maxdepth 4 -type f | sort
           echo "DITA maps:"
